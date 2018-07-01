@@ -18,6 +18,16 @@
 						</manifest>
 					</archive>
 				</configuration>
+				<executions>
+                    <execution>
+
+                        <phase>package</phase> <!-- bind to the packaging phase -->
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+				
 			</plugin>
 		</plugins>
 	</build>
