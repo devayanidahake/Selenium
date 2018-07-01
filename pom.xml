@@ -5,7 +5,7 @@
   <groupId>addressbook.com</groupId>
   <artifactId>addr</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
 
   <name>addr</name>
   <url>http://maven.apache.org</url>
